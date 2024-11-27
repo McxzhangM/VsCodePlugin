@@ -1,65 +1,48 @@
-# resource-files-auto-import README
+# Resource Files Auto Import
 
-This is the README for your extension "resource-files-auto-import". After writing up a brief description, we recommend including the following sections.
+This is a VS Code extension that automatically imports resource files and generates the corresponding `index.ts` file.
 
-## Features
+## Function
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Automatically scan resource files in the specified directory (supports `.png`, `.jpg`, `.jpeg`, `.gif`, `.svg` formats).
 
-For example if there is an image subfolder under your extension project workspace:
+- Generate an `index.ts` file containing all resource file imports and exports.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Installation
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Clone or download this project to your local computer.
 
-## Requirements
+2. Open the project folder in VS Code.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+3. Run `npm install` to install dependencies.
 
-## Extension Settings
+## Usage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Press `F5` to start the extended debugging mode.
 
-For example:
+2. In the debug window, press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the command palette.
 
-This extension contributes the following settings:
+3. Enter and select the `Import Resource Files` command.
+4. Enter the resource folder path (for example: `src/res`), the extension will automatically scan the resource files in the directory and generate the `index.ts` file.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Configuration
+
+The extension will cache the resource folder path entered last time into `globalState`, the default path is `src/res`.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- No known issues yet.
 
-## Release Notes
+## Contributions
 
-Users appreciate release notes as you update your extension.
+Welcome to submit issues and request features. If you want to contribute code, please fork this project and submit a pull request.
 
-### 1.0.0
+## Release History
 
-Initial release of ...
+### 0.0.1
 
-### 1.0.1
+- Initial release version.
 
-Fixed issue #.
+## License
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This project uses the [MIT License](LICENSE).
