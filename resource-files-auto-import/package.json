@@ -2,6 +2,7 @@
   "name": "resource-files-auto-import",
   "displayName": "Resource Files Auto Import",
   "description": "Resource files automatically import reference paths",
+  "license": "ISC",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.95.0"
@@ -32,5 +33,9 @@
     "eslint": "^9.13.0",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/McxzhangM/VsCodePlugin/tree/main/resource-files-auto-import"
   }
 }
