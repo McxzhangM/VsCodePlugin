@@ -3,7 +3,7 @@
   "displayName": "Resource Files Auto Import",
   "description": "Resource files automatically import reference paths",
   "license": "ISC",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -37,5 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/McxzhangM/VsCodePlugin/tree/main/resource-files-auto-import"
-  }
+  },
+  "icon": "icon.png",
+  "publisher": "fenWei"
 }

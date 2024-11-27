@@ -34,7 +34,7 @@ Feel free to submit issues and feature requests. If you want to contribute code,
 
 ## Release History
 
-### 0.0.1
+### 0.0.2
 
 - Initial release.
 
